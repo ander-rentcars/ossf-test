@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ossf_test_1690380748394-pr-trigger-input-set
+  identifier: Build_ossf_test_1690380748394prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ossf_test_1690380748394
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
